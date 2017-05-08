@@ -1,0 +1,2 @@
+# nativescriptWithAngularStartUp
+Sqlite Database  Service 
