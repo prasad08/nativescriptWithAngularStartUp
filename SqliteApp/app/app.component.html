@@ -1,0 +1,13 @@
+<ActionBar title="My App">
+    <ActionItem text="Add" (tap)="insert()"></ActionItem>
+</ActionBar>
+
+<StackLayout>
+  <ListView [items]="people" class="small-spacing">
+    <ng-template let-item="item">
+      <Label text="{{item.firstName}} {{item.lastName}}" class="medium-spacing"></Label>
+    </ng-template>
+  </ListView>
+</StackLayout>
+<!-- Your UI components go here -->
+<!--<Image src="~/images/apple.jpg"></Image>-->
